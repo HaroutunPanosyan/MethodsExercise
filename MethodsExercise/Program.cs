@@ -6,7 +6,7 @@ namespace MethodsExercise
     {
         static void Main(string[] args)
         {
-            //ShortStory.TheGame();
+            ShortStory.TheGame();
             Console.WriteLine(MyMathClass.Add(2, 5));
             Console.WriteLine(MyMathClass.Multiply(2, 5));
             Console.WriteLine(MyMathClass.Sum(1,9,1,2,6,2,2));
