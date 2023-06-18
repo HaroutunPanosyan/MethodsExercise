@@ -26,8 +26,8 @@ namespace MethodsExercise
         }
         public static int Subtract(params int[] sum)
         {
-            int answer = 0;
-            for (int i = 0; i < sum.Length; i++)
+            int answer = sum[0];
+            for (int i = 1; i < sum.Length; i++)
             {
                 answer -= sum[i];
             }
