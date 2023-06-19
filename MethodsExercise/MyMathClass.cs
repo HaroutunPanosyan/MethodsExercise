@@ -24,17 +24,26 @@ namespace MethodsExercise
 
             return answer;
         }
-        public static int Subtract(params int[] sum)
+        public static int Subtract(params int[] nums)
         {
-            int answer = sum[0];
-            for (int i = 1; i < sum.Length; i++)
+            int answer = nums[0];
+            for (int i = 1; i < nums.Length; i++)
             {
-                answer -= sum[i];
+                answer -= nums[i];
             }
 
             return answer;
         }
+        public static int Divide(params int[] nums)
+        {
+            int answer = nums[0];
+            for (int i = 1; i < nums.Length; i++)
+            {
+                answer /= nums[i];
+            }
 
+            return answer;
+        }
 
     }
   
